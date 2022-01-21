@@ -70,7 +70,7 @@ function itemDelete(id) {
 }
 
 //deleting all stored info//
-deleteAllBtn.addEventListener("dblclick", function() {
+deleteAllBtn.addEventListener("click", function() {
     localStorage.clear()
     myLeads = []
     render(myLeads)
