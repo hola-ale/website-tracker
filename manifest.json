@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.1",
+    "name": "My personal tracker",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "dart-board.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
